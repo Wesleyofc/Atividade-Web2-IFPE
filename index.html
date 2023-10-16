@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENDEREÇO</title>
+</head>
+
+<body>
+    <h3>"Selecione um endereço"</h3>
+
+    <form id="formulario">
+        <label for="estado">Selecione um estado:</label> <br>
+        <select name="estado" id="estado">
+            <option value="">Selecione Estado</option>
+            <option value="PE">Pernambuco</option>
+            <option value="AL">Alagoas</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </select>
+        <br><br>
+        <label for="cidade">Escreva uma cidade:</label> <br>
+        <select name="cidade" id="cidade"></select>
+        <br><br>
+        <label for="bairro">Selecione um bairro referente à cidade escolhida:</label> <br>
+        <input id="bairro" type="text" name="bairro"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div id="listarItens">
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
